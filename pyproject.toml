@@ -1,0 +1,12 @@
+[project]
+name = "ibm-project"
+version = "0.1.0"
+description = "IBM python project which have been utilized from the agents to implement the customer segmentation task"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.128.0",
+    "pydantic>=2.12.5",
+    "streamlit>=1.53.1",
+    "uvicorn>=0.40.0",
+]
